@@ -1,0 +1,16 @@
+; ByteForge listing for memory_stack.asm
+; ADDR  WORD1 WORD2  LINE  SOURCE
+0000   1E88           33  LOADI R3, 0x44
+0001   0E00  0200     34  STORE R3, [0x0200]
+0003   1E00           35  LOADI R3, 0
+0004   0600  0200     36  LOAD  R3, [0x0200]
+0006   1822           39  LOADI R0, 0x11
+0007   1A44           40  LOADI R1, 0x22
+0008   1C66           41  LOADI R2, 0x33
+0009   6800           42  PUSH  R0
+000A   6A00           43  PUSH  R1
+000B   6C00           44  PUSH  R2
+000C   7000           45  POP   R0
+000D   7200           46  POP   R1
+000E   7400           47  POP   R2
+000F   8800           48  HALT
