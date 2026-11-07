@@ -1,0 +1,3 @@
+tb_production_timing: 451 checks, 0 failures, 16120720 clocks simulated
+PASS: tb_production_timing
+../tb/tb_production_timing.v:151: $finish called at 597079227360 (1ps)

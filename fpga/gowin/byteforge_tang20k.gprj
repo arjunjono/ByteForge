@@ -1,0 +1,26 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="../rtl/tang_nano_20k_top.v" type="file.verilog" enable="1"/>
+        <File path="../rtl/byteforge_system.v" type="file.verilog" enable="1"/>
+        <File path="../rtl/byteforge_io.v" type="file.verilog" enable="1"/>
+        <File path="../rtl/program_rom.v" type="file.verilog" enable="1"/>
+        <File path="../rtl/data_bus.v" type="file.verilog" enable="1"/>
+        <File path="../rtl/delay_unit.v" type="file.verilog" enable="1"/>
+        <File path="../rtl/button_input.v" type="file.verilog" enable="1"/>
+        <File path="../rtl/reset_conditioner.v" type="file.verilog" enable="1"/>
+        <File path="../rtl/spi_display_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="../cpu/alu.v" type="file.verilog" enable="1"/>
+        <File path="../cpu/register_file.v" type="file.verilog" enable="1"/>
+        <File path="../cpu/flags_register.v" type="file.verilog" enable="1"/>
+        <File path="../cpu/instruction_decoder.v" type="file.verilog" enable="1"/>
+        <File path="../cpu/control_unit.v" type="file.verilog" enable="1"/>
+        <File path="../cpu/cpu.v" type="file.verilog" enable="1"/>
+        <File path="../constraints/byteforge.cst" type="file.cst" enable="1"/>
+        <File path="../constraints/byteforge.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

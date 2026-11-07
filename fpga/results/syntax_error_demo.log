@@ -1,0 +1,30 @@
+PASS  tb_program_rom  (16435 checks)
+../rtl/button_input.v:62: syntax error
+I give up.
+FAIL  compile error: -o iobus.vvp -s tb_io_bus ../rtl/button_input.v ../rtl/data_bus.v ../rtl/delay_unit.v ../rtl/spi_display_ctrl.v ../rtl/byteforge_io.v ../tb/spi_monitor.v ../tb/tb_io_bus.v
+../rtl/button_input.v:62: syntax error
+I give up.
+FAIL  compile error: -o delay.vvp -s tb_delay ../rtl/button_input.v ../rtl/data_bus.v ../rtl/delay_unit.v ../rtl/spi_display_ctrl.v ../rtl/byteforge_io.v ../tb/tb_delay.v
+../rtl/button_input.v:62: syntax error
+I give up.
+FAIL  compile error: -o btn.vvp -s tb_buttons ../rtl/button_input.v ../tb/tb_buttons.v
+PASS  tb_reset_conditioner  (11 checks)
+PASS  tb_spi_display HALF=1  (172 checks)
+PASS  tb_spi_display HALF=2  (172 checks)
+PASS  tb_spi_display HALF=3  (172 checks)
+../rtl/button_input.v:62: syntax error
+I give up.
+FAIL  compile error: -Ptb_stack.MODE=0 -Ptb_stack.ROM="stack_basic.hex" -o stack0.vvp -s tb_stack ../rtl/button_input.v ../rtl/data_bus.v ../rtl/delay_unit.v ../rtl/spi_display_ctrl.v ../rtl/byteforge_io.v ../rtl/program_rom.v ../rtl/byteforge_system.v ../cpu/alu.v ../cpu/register_file.v ../cpu/flags_register.v ../cpu/instruction_decoder.v ../cpu/control_unit.v ../cpu/cpu.v ../tb/tb_stack.v
+../rtl/button_input.v:62: syntax error
+I give up.
+FAIL  compile error: -Ptb_stack.MODE=1 -Ptb_stack.ROM="stack_limit.hex" -o stack1.vvp -s tb_stack ../rtl/button_input.v ../rtl/data_bus.v ../rtl/delay_unit.v ../rtl/spi_display_ctrl.v ../rtl/byteforge_io.v ../rtl/program_rom.v ../rtl/byteforge_system.v ../cpu/alu.v ../cpu/register_file.v ../cpu/flags_register.v ../cpu/instruction_decoder.v ../cpu/control_unit.v ../cpu/cpu.v ../tb/tb_stack.v
+../rtl/button_input.v:62: syntax error
+I give up.
+FAIL  compile error: -Ptb_stack.MODE=2 -Ptb_stack.ROM="stack_underflow.hex" -o stack2.vvp -s tb_stack ../rtl/button_input.v ../rtl/data_bus.v ../rtl/delay_unit.v ../rtl/spi_display_ctrl.v ../rtl/byteforge_io.v ../rtl/program_rom.v ../rtl/byteforge_system.v ../cpu/alu.v ../cpu/register_file.v ../cpu/flags_register.v ../cpu/instruction_decoder.v ../cpu/control_unit.v ../cpu/cpu.v ../tb/tb_stack.v
+../rtl/button_input.v:62: syntax error
+I give up.
+FAIL  compile error: -o work/board.vvp -s tb_board_top ../rtl/button_input.v ../rtl/data_bus.v ../rtl/delay_unit.v ../rtl/spi_display_ctrl.v ../rtl/byteforge_io.v ../rtl/program_rom.v ../rtl/byteforge_system.v ../cpu/alu.v ../cpu/register_file.v ../cpu/flags_register.v ../cpu/instruction_decoder.v ../cpu/control_unit.v ../cpu/cpu.v ../rtl/reset_conditioner.v ../rtl/tang_nano_20k_top.v ../tb/spi_monitor.v ../tb/tb_board_top.v
+PASS  assembler_tests.py  (78 tests, 0 skipped)
+PASS  existing cpu_tb  (15234 checks)
+PASS  existing assembly_programs_tb  (1986 checks)
+failures: 7

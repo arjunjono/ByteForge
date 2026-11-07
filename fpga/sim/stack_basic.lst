@@ -1,0 +1,15 @@
+; ByteForge listing for stack_basic.asm
+; ADDR  WORD1 WORD2  LINE  SOURCE
+0000   1822            2  LOADI R0, 0x11
+0001   1A44            3  LOADI R1, 0x22
+0002   1C66            4  LOADI R2, 0x33
+0003   6800            5  PUSH  R0
+0004   6A00            6  PUSH  R1
+0005   6C00            7  PUSH  R2
+0006   7600            8  POP   R3
+0007   0E00  0100      9  STORE R3, [0x0100]
+0009   7600           10  POP   R3
+000A   0E00  0101     11  STORE R3, [0x0101]
+000C   7600           12  POP   R3
+000D   0E00  0102     13  STORE R3, [0x0102]
+000F   8800           14  HALT

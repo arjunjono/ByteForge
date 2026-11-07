@@ -1,0 +1,11 @@
+; ByteForge listing for countdown.asm
+; ADDR  WORD1 WORD2  LINE  SOURCE
+0000   180A           25  LOADI R0, 5
+0001   1A02           26  LOADI R1, 1
+0002   1C00           27  LOADI R2, 0
+0003   1E00           28  LOADI R3, 0
+0004   2400           29  loop:   ADD   R2, R0
+0005   2680           30  ADD   R3, R1
+0006   2880           31  SUB   R0, R1
+0007   6000  0004     32  JNZ   loop
+0009   8800           33  HALT

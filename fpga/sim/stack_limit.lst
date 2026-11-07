@@ -1,0 +1,16 @@
+; ByteForge listing for stack_limit.asm
+; ADDR  WORD1 WORD2  LINE  SOURCE
+0000   1956            2  LOADI R0, 0xAB
+0001   0800  3EFF      3  STORE R0, [0x3EFF]
+0003   1DFE            4  LOADI R2, 255
+0004   1E02            5  LOADI R3, 1
+0005   6800            6  loop:   PUSH  R0
+0006   2180            7  ADD   R0, R3
+0007   2D80            8  SUB   R2, R3
+0008   6000  0005      9  JNZ   loop
+000A   6800           10  PUSH  R0
+000B   1AB8           11  LOADI R1, 0x5C
+000C   0A00  0200     12  STORE R1, [0x0200]
+000E   6800           13  PUSH  R0
+000F   0A00  0201     14  STORE R1, [0x0201]
+0011   8800           15  HALT

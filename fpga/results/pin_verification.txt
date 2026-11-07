@@ -1,0 +1,18 @@
+port | BEL | IO name | package pin | requested | match
+btn_a_n | X13Y54/IOBA | IOB14A | 29 | 29 | OK
+btn_b_n | X13Y54/IOBB | IOB14B | 30 | 30 | OK
+btn_down_n | X7Y54/IOBB | IOB8B | 28 | 28 | OK
+btn_left_n | X5Y54/IOBA | IOB6A | 25 | 25 | OK
+btn_right_n | X5Y54/IOBB | IOB6B | 26 | 26 | OK
+btn_up_n | X7Y54/IOBA | IOB8A | 27 | 27 | OK
+rst_btn_n | X17Y54/IOBA | IOB18A | 31 | 31 | OK
+clk | X0Y6/IOBA | IOL7A | 4 | 4 | OK
+led_n[0] | X0Y46/IOBA | IOL47A | 15 | 15 | OK
+led_n[1] | X0Y46/IOBB | IOL47B | 16 | 16 | OK
+lcd_rst | X55Y48/IOBB | IOR49B | 48 | 48 | OK
+lcd_din | X39Y0/IOBA | IOT40A | 73 | 73 | OK
+lcd_dc | X29Y0/IOBA | IOT30A | 77 | 77 | OK
+lcd_cs | X42Y54/IOBA | IOB43A | 41 | 41 | OK
+lcd_clk | X33Y0/IOBB | IOT34B | 74 | 74 | OK
+lcd_bl | X41Y54/IOBB | IOB42B | 42 | 42 | OK
+mismatches: 0

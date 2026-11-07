@@ -1,0 +1,52 @@
+// byteforge.cst - Tang Nano 20K (GW2AR-LV18QN88C8/I7, QN88 package) physical constraints
+//
+// All numbers below are FPGA PACKAGE PIN numbers (the numbers on Sipeed's pin-label
+// image / in the schematic net list), NOT positions on the 2x24 header strips.
+// All used pins are in banks 0, 1, 4, 5 or 6; Sipeed's pinout image marks banks 0,1,5,6 as
+// VIO = 3.3 V. Bank 4 (pin 42) is NOT in that legend; the schematic text extraction shows +3V3 next to
+// VCCO_4 but this was NOT confirmed visually/electrically (see docs/SECTION22_23_CORRECTIONS.md B).
+// LVCMOS33 is used throughout.  Net names below are from the Sipeed schematic (3921, Rev 1.30 copy).
+
+// ---- 27 MHz crystal (Sipeed examples: IO_LOC "clk" 4, LVCMOS33) ----
+IO_LOC "clk" 4;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// ---- Waveshare 2inch LCD (17344) on the Section 22 header pins ----
+// Revision 2 remap (hardware plan): lcd_cs 75 -> 41, lcd_rst 86 -> 48. Pins 41 (PIN41_LCD_R4, IOB43A, bank 4) and
+// 48 (PIN48_LCD_DE, IOR49B, bank 3) are RGB-LCD-connector nets: that connector (and HDMI) must stay disconnected.
+// WARNING: lcd_din (73) and lcd_clk (74) still sit on nets labelled PIN73_HSPI_DIN2 / PIN74_HSPI_DIN3 (BL616 'HSPI')
+// plus SYS_LED nets; whether the BL616 ever drives them is NOT verified.
+IO_LOC "lcd_din" 73;      // IOT40A  bank 1 (nets PIN73_HSPI_DIN2 / PIN73_SYS_LED3)
+IO_PORT "lcd_din" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+IO_LOC "lcd_clk" 74;      // IOT34B  bank 1 (nets PIN74_HSPI_DIN3 / PIN74_SYS_LED2)
+IO_PORT "lcd_clk" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+IO_LOC "lcd_cs"  41;      // IOB43A  bank 4 (schematic net PIN41_LCD_R4; was pin 75; RGB connector must stay empty)
+IO_PORT "lcd_cs"  IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+IO_LOC "lcd_dc"  77;      // IOT30A  bank 1 (schematic net PIN77_LCD_CK, RGB-connector clock; connector must stay empty)
+IO_PORT "lcd_dc"  IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+IO_LOC "lcd_rst" 48;      // IOR49B  bank 3 (schematic net PIN48_LCD_DE; was pin 86; RGB connector must stay empty)
+IO_PORT "lcd_rst" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+IO_LOC "lcd_bl"  42;      // IOB42B  bank 4 (schematic net PIN42_LCD_R3; connector must stay empty)
+IO_PORT "lcd_bl"  IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=DOWN;
+
+// ---- buttons: switch to GND, internal pull-up, active low ----
+IO_LOC "btn_up_n"    27;  // IOB8A   bank 5 (RGB-connector net LCD_B7)
+IO_PORT "btn_up_n"    IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "btn_down_n"  28;  // IOB8B   bank 5 (LCD_B6)
+IO_PORT "btn_down_n"  IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "btn_left_n"  25;  // IOB6A   bank 5 (LCD_HS)
+IO_PORT "btn_left_n"  IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "btn_right_n" 26;  // IOB6B   bank 5 (LCD_VS)
+IO_PORT "btn_right_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "btn_a_n"     29;  // IOB14A  bank 5 (LCD_B5)
+IO_PORT "btn_a_n"     IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "btn_b_n"     30;  // IOB14B  bank 5 per Apycula (schematic pin table text reads IOR14B - probable extraction typo, unresolved) (LCD_B4)
+IO_PORT "btn_b_n"     IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "rst_btn_n"   31;  // IOB18A  bank 5 (LCD_B3)
+IO_PORT "rst_btn_n"   IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// ---- on-board LEDs (active low), Sipeed blink_leds example: pins 15..20, LVCMOS33 ----
+IO_LOC "led_n[0]" 15;     // IOL47A  bank 6
+IO_PORT "led_n[0]" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;
+IO_LOC "led_n[1]" 16;     // IOL47B  bank 6
+IO_PORT "led_n[1]" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=UP;

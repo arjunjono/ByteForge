@@ -1,0 +1,11 @@
+  [demo] initial cyan patch redraw verified at byte 153682
+  [demo] Up (red) held redraw verified at byte 156893
+  [demo] Down+Left together -> Down (green) redraw verified at byte 160104
+  [demo] Down again with Left held -> green redraw verified at byte 163315
+  [demo] Left (blue) redraw verified at byte 166526
+  [demo] Right (yellow) redraw verified at byte 169737
+  [demo] A (white) redraw verified at byte 172948
+  [demo] B (magenta) pressed during A's redraw redraw verified at byte 176159
+tb_demo: 179499 checks, 0 failures, simulated 8815627 clocks
+PASS: tb_demo
+../../tb/tb_demo.v:301: $finish called at 352625060000 (1ps)

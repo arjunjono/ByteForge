@@ -1,0 +1,374 @@
+Info: Using uarch 'gowin' for device 'GW2AR-LV18QN88C8/I7'
+
+Info: Cell O_sdram_clk not found
+Info: Cell O_sdram_cke not found
+Info: Cell O_sdram_cs_n not found
+Info: Cell O_sdram_cas_n not found
+Info: Cell O_sdram_ras_n not found
+Info: Cell O_sdram_wen_n not found
+Info: Cell O_sdram_dqm[0] not found
+Info: Cell O_sdram_dqm[1] not found
+Info: Cell O_sdram_dqm[2] not found
+Info: Cell O_sdram_dqm[3] not found
+Info: Cell O_sdram_addr[0] not found
+Info: Cell O_sdram_addr[1] not found
+Info: Cell O_sdram_addr[2] not found
+Info: Cell O_sdram_addr[3] not found
+Info: Cell O_sdram_addr[4] not found
+Info: Cell O_sdram_addr[5] not found
+Info: Cell O_sdram_addr[6] not found
+Info: Cell O_sdram_addr[7] not found
+Info: Cell O_sdram_addr[8] not found
+Info: Cell O_sdram_addr[9] not found
+Info: Cell O_sdram_addr[10] not found
+Info: Cell O_sdram_ba[0] not found
+Info: Cell O_sdram_ba[1] not found
+Info: Cell IO_sdram_dq[0] not found
+Info: Cell IO_sdram_dq[1] not found
+Info: Cell IO_sdram_dq[2] not found
+Info: Cell IO_sdram_dq[3] not found
+Info: Cell IO_sdram_dq[4] not found
+Info: Cell IO_sdram_dq[5] not found
+Info: Cell IO_sdram_dq[6] not found
+Info: Cell IO_sdram_dq[7] not found
+Info: Cell IO_sdram_dq[8] not found
+Info: Cell IO_sdram_dq[9] not found
+Info: Cell IO_sdram_dq[10] not found
+Info: Cell IO_sdram_dq[11] not found
+Info: Cell IO_sdram_dq[12] not found
+Info: Cell IO_sdram_dq[13] not found
+Info: Cell IO_sdram_dq[14] not found
+Info: Cell IO_sdram_dq[15] not found
+Info: Cell IO_sdram_dq[16] not found
+Info: Cell IO_sdram_dq[17] not found
+Info: Cell IO_sdram_dq[18] not found
+Info: Cell IO_sdram_dq[19] not found
+Info: Cell IO_sdram_dq[20] not found
+Info: Cell IO_sdram_dq[21] not found
+Info: Cell IO_sdram_dq[22] not found
+Info: Cell IO_sdram_dq[23] not found
+Info: Cell IO_sdram_dq[24] not found
+Info: Cell IO_sdram_dq[25] not found
+Info: Cell IO_sdram_dq[26] not found
+Info: Cell IO_sdram_dq[27] not found
+Info: Cell IO_sdram_dq[28] not found
+Info: Cell IO_sdram_dq[29] not found
+Info: Cell IO_sdram_dq[30] not found
+Info: Cell IO_sdram_dq[31] not found
+Info: Reading constraints...
+Info: Create constant nets...
+Info: Modify LUTs...
+Info: Pack IOBs...
+Info: Pack I3C IOs...
+Info: Pack MIPI IOs...
+Info: Pack diff IOBs...
+Info: Pack FFs into IO cells...
+Info: Pack IODELAY...
+Info: Pack Input Edge Monitors...
+Info: Pack IO logic...
+Info: Pack DESER16 logic...
+Info: Pack GSR...
+Info: Pack HCLK cells...
+Info: Pack DLLDLYs...
+Info: Pack wide LUTs...
+Info: Packed MUX2_LUT8:17, MUX2_LU7:18, MUX2_LUT6:19, MUX2_LUT5:46
+Info: Pack ALUs...
+Info: Pack SSRAMs...
+Info: Constrained 191 LUTFF pairs.
+Info: Pack PLL...
+Info: Pack ADC...
+Info: Pack GW JTAG...
+Info: Pack BSRAMs...
+Info: Pack DSP...
+Info: Pack INV...
+Info: Pack buffered nets...
+Info: Pack EMCU and UserFlash cells...
+Info: Pack UserFlash cells...
+Info: Pack DQCE cells...
+Info: Pack DCS cells...
+Info: Checksum: 0x8567edcb
+
+Info: Device utilisation:
+Info: 	                 VCC:       1/      1   100%
+Info: 	                 IOB:      16/    384     4%
+Info: 	                LUT4:    1300/  20736     6%
+Info: 	            IOLOGICI:       0/    384     0%
+Info: 	            IOLOGICO:       0/    384     0%
+Info: 	           MUX2_LUT5:     292/  10368     2%
+Info: 	           MUX2_LUT6:     123/   5184     2%
+Info: 	           MUX2_LUT7:      52/   2592     2%
+Info: 	           MUX2_LUT8:      17/   2592     0%
+Info: 	                 ALU:     304/  15552     1%
+Info: 	                 GND:       1/      1   100%
+Info: 	                 DFF:     396/  15552     2%
+Info: 	           RAM16SDP4:       0/    648     0%
+Info: 	               BSRAM:      16/     46    34%
+Info: 	              ALU54D:       0/     24     0%
+Info: 	     MULTADDALU18X18:       0/     24     0%
+Info: 	        MULTALU18X18:       0/     24     0%
+Info: 	        MULTALU36X18:       0/     24     0%
+Info: 	           MULT36X36:       0/     12     0%
+Info: 	           MULT18X18:       0/     48     0%
+Info: 	             MULT9X9:       0/     96     0%
+Info: 	              PADD18:       0/     48     0%
+Info: 	               PADD9:       0/     96     0%
+Info: 	                 GSR:       1/      1   100%
+Info: 	                 OSC:       0/      1     0%
+Info: 	                rPLL:       0/      2     0%
+Info: 	             GW_JTAG:       0/      1     0%
+Info: 	                BUFG:       1/     24     4%
+Info: 	                DQCE:       0/     24     0%
+Info: 	                 DCS:       0/      8     0%
+Info: 	               DHCEN:       0/     24     0%
+Info: 	              CLKDIV:       0/      8     0%
+Info: 	             CLKDIV2:       0/     16     0%
+
+Info: Running custom HCLK placer...
+Info: Placed 0 cells based on constraints.
+Info: Creating initial analytic placement for 752 cells, random placement wirelen = 51969.
+Info:     at initial placer iter 0, wirelen = 1513
+Info:     at initial placer iter 1, wirelen = 1170
+Info:     at initial placer iter 2, wirelen = 1071
+Info:     at initial placer iter 3, wirelen = 1087
+Info: Running main analytical placer, max placement attempts per cell = 793800.
+Info:     at iteration #1, type ALL: wirelen solved = 1014, spread = 8026, legal = 11249; time = 0.06s
+Info:     at iteration #2, type ALL: wirelen solved = 1139, spread = 6185, legal = 10502; time = 0.07s
+Info:     at iteration #3, type ALL: wirelen solved = 1225, spread = 6393, legal = 10413; time = 0.06s
+Info:     at iteration #4, type ALL: wirelen solved = 1395, spread = 5449, legal = 8999; time = 0.05s
+Info:     at iteration #5, type ALL: wirelen solved = 1467, spread = 5177, legal = 9174; time = 0.05s
+Info:     at iteration #6, type ALL: wirelen solved = 1638, spread = 5231, legal = 8954; time = 0.07s
+Info:     at iteration #7, type ALL: wirelen solved = 1657, spread = 6145, legal = 8606; time = 0.04s
+Info:     at iteration #8, type ALL: wirelen solved = 1930, spread = 5873, legal = 8288; time = 0.04s
+Info:     at iteration #9, type ALL: wirelen solved = 2067, spread = 6458, legal = 8863; time = 0.04s
+Info:     at iteration #10, type ALL: wirelen solved = 2263, spread = 6971, legal = 9080; time = 0.04s
+Info:     at iteration #11, type ALL: wirelen solved = 2260, spread = 6426, legal = 8360; time = 0.04s
+Info:     at iteration #12, type ALL: wirelen solved = 2503, spread = 6299, legal = 8487; time = 0.03s
+Info:     at iteration #13, type ALL: wirelen solved = 2347, spread = 6412, legal = 8520; time = 0.04s
+Info: HeAP Placer Time: 0.98s
+Info:   of which solving equations: 0.29s
+Info:   of which spreading cells: 0.07s
+Info:   of which strict legalisation: 0.33s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 108, wirelen = 8288
+Info:   at iteration #5: temp = 0.000000, timing cost = 105, wirelen = 6172
+Info:   at iteration #10: temp = 0.000000, timing cost = 99, wirelen = 5658
+Info:   at iteration #15: temp = 0.000000, timing cost = 90, wirelen = 5443
+Info:   at iteration #20: temp = 0.000000, timing cost = 89, wirelen = 5269
+Info:   at iteration #25: temp = 0.000000, timing cost = 90, wirelen = 5181
+Info:   at iteration #30: temp = 0.000000, timing cost = 87, wirelen = 5166
+Info:   at iteration #31: temp = 0.000000, timing cost = 90, wirelen = 5164 
+Info: SA placement time 4.67s
+
+Info: Max frequency for clock 'u_reset.clk': 103.05 MHz (PASS at 27.00 MHz)
+
+Info: Slack histogram:
+Info:  legend: times are in ps
+Info:          * represents 2 endpoint(s)
+Info:          + represents [1,2) endpoint(s)
+Info: [ 27333,  27805) |*****+
+Info: [ 27805,  28277) |*******+
+Info: [ 28277,  28749) |***********+
+Info: [ 28749,  29221) |************+
+Info: [ 29221,  29693) |********+
+Info: [ 29693,  30165) |*****************+
+Info: [ 30165,  30637) |***************+
+Info: [ 30637,  31109) |************************+
+Info: [ 31109,  31581) |***********************+
+Info: [ 31581,  32053) |*****************+
+Info: [ 32053,  32525) |*********+
+Info: [ 32525,  32997) |*******+
+Info: [ 32997,  33469) |**********************+
+Info: [ 33469,  33941) |************************************************************ 
+Info: [ 33941,  34413) |***********************************+
+Info: [ 34413,  34885) |*******+
+Info: [ 34885,  35357) |***********************+
+Info: [ 35357,  35829) |***********************************+
+Info: [ 35829,  36301) |******************+
+Info: [ 36301,  36773) |************************************************+
+Info: Checksum: 0xcd51eefd
+Info: Routing globals...
+Info:     'u_reset.clk' net was routed.
+Info:     'u_system.u_cpu.u_alu.A_LUT3_F_1_I0[2]' is routed using segments.
+Info:     'u_system.u_io.u_bus.capture' is routed using segments.
+Info:     'u_system.u_cpu.u_control.ir[8]' is routed using segments.
+Info:     'u_system.u_io.u_disp.su_cnt_DFFRE_Q_CE' is routed using segments.
+Info:     'u_system.u_cpu.u_registers.regs[3]_DFFE_Q_CE_LUT4_F_I0[2]' is routed using segments.
+Info:     'u_system.fault_LUT4_I3_1_F[4]' is routed using segments.
+Info:     'u_system.halted_LUT4_I1_F_MUX2_LUT5_I0_O' is routed using segments.
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 5862 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:       1000 |       41        958 |   41   958 |      4935|       0.54       0.54|
+Info:       2000 |      116       1778 |   75   820 |      4051|       0.38       0.92|
+Info:       3000 |      155       2229 |   39   451 |      3163|       0.21       1.13|
+Info:       4000 |      191       2999 |   36   770 |      2211|       0.28       1.41|
+Info:       5000 |      211       3827 |   20   828 |      1240|       0.20       1.61|
+Info:       6000 |      211       4595 |    0   768 |       240|       0.26       1.87|
+Info:       6239 |      211       4781 |    0   186 |         0|       0.08       1.95|
+Info: Routing complete.
+Info: Router1 time 1.95s
+Info: Checksum: 0x7986fafd
+
+Info: Critical path report for clock 'u_reset.clk' (posedge -> posedge):
+Info:       type curr  total name
+Info:   clk-to-q  0.23  0.23 Source u_system.u_cpu.u_control.ir_DFFRE_Q_1.Q
+Info:    routing  0.88  1.11 Net u_system.u_cpu.u_alu.A_LUT3_F_1_I0[2] (10,26) -> (10,26)
+Info:                          Sink u_system.u_cpu.u_control.ir_LUT4_I0_1.I2
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.46  1.58 Source u_system.u_cpu.u_control.ir_LUT4_I0_1.F
+Info:    routing  0.00  1.58 Net u_system.u_cpu.u_control.ir_LUT4_I0_1_F (10,26) -> (10,26)
+Info:                          Sink u_system.u_cpu.u_control.ir_MUX2_LUT5_S0_1.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:      logic  0.27  1.84 Source u_system.u_cpu.u_control.ir_MUX2_LUT5_S0_1.O
+Info:    routing  0.00  1.84 Net u_system.u_cpu.u_control.ir_MUX2_LUT5_S0_1_O (10,26) -> (10,26)
+Info:                          Sink u_system.u_cpu.u_control.ir_MUX2_LUT6_S0.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:      logic  0.27  2.11 Source u_system.u_cpu.u_control.ir_MUX2_LUT6_S0.O
+Info:    routing  0.95  3.06 Net u_system.u_cpu.u_alu.B_MUX2_LUT8_O_S0[4] (10,26) -> (8,31)
+Info:                          Sink u_system.u_cpu.u_registers.regs[3]_LUT3_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT1_F.I0
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.55  3.61 Source u_system.u_cpu.u_registers.regs[3]_LUT3_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT1_F.F
+Info:    routing  0.00  3.61 Net u_system.u_cpu.u_registers.regs[3]_LUT3_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0 (8,31) -> (8,31)
+Info:                          Sink u_system.u_cpu.u_registers.regs[3]_LUT3_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O.I0
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:151.9-151.11
+Info:      logic  0.27  3.88 Source u_system.u_cpu.u_registers.regs[3]_LUT3_I0_F_MUX2_LUT6_O_I1_MUX2_LUT5_O.O
+Info:    routing  0.00  3.88 Net u_system.u_cpu.u_registers.regs[3]_LUT3_I0_F_MUX2_LUT6_O_I1 (8,31) -> (8,31)
+Info:                          Sink u_system.u_cpu.u_registers.regs[3]_LUT3_I0_F_MUX2_LUT6_O.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:      logic  0.27  4.14 Source u_system.u_cpu.u_registers.regs[3]_LUT3_I0_F_MUX2_LUT6_O.O
+Info:    routing  0.38  4.52 Net u_system.u_cpu.flags_write_enable_LUT3_F_I0_LUT2_I1_F[2] (8,31) -> (7,31)
+Info:                          Sink u_system.u_cpu.u_alu.A_LUT3_F_7.I2
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.46  4.99 Source u_system.u_cpu.u_alu.A_LUT3_F_7.F
+Info:    routing  0.38  5.36 Net u_system.u_cpu.reg_read_data_a[0] (7,31) -> (6,31)
+Info:                          Sink u_system.u_cpu.u_alu.sum_ALU_SUM_7.I1
+Info:                          Defined in:
+Info:                               ../../rtl/tang_nano_20k_top.v:54.7-60.6
+Info:                               ../../cpu/cpu.v:107.19-117.6
+Info:                               ../../cpu/register_file.v:14.18-14.29
+Info:                               ../../rtl/byteforge_system.v:47.58-56.6
+Info:      logic  0.57  5.93 Source u_system.u_cpu.u_alu.sum_ALU_SUM_7.COUT
+Info:    routing  0.00  5.93 Net u_system.u_cpu.u_alu.sum_ALU_SUM_7_COUT[1] (6,31) -> (6,31)
+Info:                          Sink u_system.u_cpu.u_alu.sum_ALU_SUM_6.CIN
+Info:                          Defined in:
+Info:                               ../../rtl/tang_nano_20k_top.v:54.7-60.6
+Info:                               ../../cpu/cpu.v:131.9-139.6
+Info:                               ../../cpu/alu.v:31.18-31.33
+Info:                               ../../rtl/byteforge_system.v:47.58-56.6
+Info:                               /usr/bin/../share/yosys/gowin/arith_map.v:38.25-38.27
+Info:      logic  0.04  5.97 Source u_system.u_cpu.u_alu.sum_ALU_SUM_6.COUT
+Info:    routing  0.00  5.97 Net u_system.u_cpu.u_alu.sum_ALU_SUM_7_COUT[2] (6,31) -> (6,31)
+Info:                          Sink u_system.u_cpu.u_alu.sum_ALU_SUM_5.CIN
+Info:                          Defined in:
+Info:                               ../../rtl/tang_nano_20k_top.v:54.7-60.6
+Info:                               ../../cpu/cpu.v:131.9-139.6
+Info:                               ../../cpu/alu.v:31.18-31.33
+Info:                               ../../rtl/byteforge_system.v:47.58-56.6
+Info:                               /usr/bin/../share/yosys/gowin/arith_map.v:38.25-38.27
+Info:      logic  0.47  6.44 Source u_system.u_cpu.u_alu.sum_ALU_SUM_5.SUM
+Info:    routing  0.17  6.60 Net u_system.u_cpu.u_alu.sum[2] (6,31) -> (6,32)
+Info:                          Sink u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT3_F.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.57  7.17 Source u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0_LUT3_F.F
+Info:    routing  0.00  7.17 Net u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_MUX2_LUT6_O_I1_MUX2_LUT5_O_I0 (6,32) -> (6,32)
+Info:                          Sink u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_MUX2_LUT6_O_I1_MUX2_LUT5_O.I0
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:151.9-151.11
+Info:      logic  0.27  7.44 Source u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_MUX2_LUT6_O_I1_MUX2_LUT5_O.O
+Info:    routing  0.00  7.44 Net u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_MUX2_LUT6_O_I1 (6,32) -> (6,32)
+Info:                          Sink u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_MUX2_LUT6_O.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:      logic  0.27  7.71 Source u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_MUX2_LUT6_O.O
+Info:    routing  0.62  8.32 Net u_system.u_io.u_bus.r_ram_LUT4_I2_3_F[2] (6,32) -> (5,34)
+Info:                          Sink u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_LUT3_I0.I2
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.46  8.79 Source u_system.u_io.u_bus.r_ram_LUT4_I2_3_F_LUT3_I0.F
+Info:    routing  0.40  9.19 Net u_system.u_io.u_bus.r_ram_LUT4_I2_F_LUT3_I0_F[1] (5,34) -> (7,34)
+Info:                          Sink u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:      logic  0.57  9.76 Source u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F.F
+Info:    routing  0.00  9.76 Net u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 (7,34) -> (7,34)
+Info:                          Sink u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:      logic  0.27  10.03 Source u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O.O
+Info:    routing  0.00  10.03 Net u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 (7,34) -> (7,34)
+Info:                          Sink u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:      logic  0.27  10.30 Source u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O.O
+Info:    routing  0.00  10.30 Net u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1 (7,34) -> (7,34)
+Info:                          Sink u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:171.43-171.68
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:      logic  0.27  10.56 Source u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1_MUX2_LUT7_O.O
+Info:    routing  0.00  10.56 Net u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O_I1 (7,34) -> (7,34)
+Info:                          Sink u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O.I1
+Info:                          Defined in:
+Info:                               /usr/bin/../share/yosys/gowin/cells_map.v:169.13-169.15
+Info:      logic  0.27  10.83 Source u_system.u_cpu.u_flags.Z_in_MUX2_LUT8_O.O
+Info:    routing  0.40  11.24 Net u_system.u_cpu.alu_z (7,34) -> (9,33)
+Info:                          Sink u_system.u_cpu.u_flags.Z_DFFRE_Q_passthrough_lut$.I3
+Info:                          Defined in:
+Info:                               ../../rtl/tang_nano_20k_top.v:54.7-60.6
+Info:                               ../../cpu/cpu.v:119.20-129.6
+Info:                               ../../cpu/flags_register.v:9.16-9.20
+Info:                               ../../rtl/byteforge_system.v:47.58-56.6
+Info:      logic  0.37  11.61 Source u_system.u_cpu.u_flags.Z_DFFRE_Q_passthrough_lut$.F
+Info:    routing  0.00  11.61 Net u_system.u_cpu.u_flags.Z_DFFRE_Q$conn$D (9,33) -> (9,33)
+Info:                          Sink u_system.u_cpu.u_flags.Z_DFFRE_Q.D
+Info:      setup  0.04  11.64 Source u_system.u_cpu.u_flags.Z_DFFRE_Q.D
+Info: 7.46 ns logic, 4.18 ns routing
+
+Info: Max frequency for clock 'u_reset.clk': 85.90 MHz (PASS at 27.00 MHz)
+
+Info: Slack histogram:
+Info:  legend: times are in ps
+Info:          * represents 3 endpoint(s)
+Info:          + represents [1,3) endpoint(s)
+Info: [ 25396,  25958) |*+
+Info: [ 25958,  26520) |***+
+Info: [ 26520,  27082) |****+
+Info: [ 27082,  27644) | 
+Info: [ 27644,  28206) | 
+Info: [ 28206,  28768) | 
+Info: [ 28768,  29330) |+
+Info: [ 29330,  29892) |******+
+Info: [ 29892,  30454) |*********+
+Info: [ 30454,  31016) |***********+
+Info: [ 31016,  31578) |*******************+
+Info: [ 31578,  32140) |*************+
+Info: [ 32140,  32702) |*********************************+
+Info: [ 32702,  33264) |***************************+
+Info: [ 33264,  33826) |******************************+
+Info: [ 33826,  34388) |*******************+
+Info: [ 34388,  34950) |************+
+Info: [ 34950,  35512) |************************************************************ 
+Info: [ 35512,  36074) |*********************************************+
+Info: [ 36074,  36636) |******************+
+
+Info: Program finished normally.

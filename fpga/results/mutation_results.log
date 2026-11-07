@@ -1,0 +1,20 @@
+Baseline (unmutated copies): tb_io_bus=PASS, tb_delay=PASS, tb_buttons=PASS, tb_spi_display=PASS
+M1 repeated peripheral write (a held request completes again: DONE no longer waits for request low)
+    detected by: tb_io_bus, tb_delay
+      tb_io_bus: FAIL  FAIL: held display write completes once: expected 0x1, actual 0x2  (t=41665000) (4 failing checks)
+      tb_delay: FAIL  FAIL: held request after delay does not complete or delay again: expected 1 (0x1), actual 61 (0x3d)  (t=38895000) (1 failing checks)
+M2 wrong RAM address bit (bit 13 dropped)
+    detected by: tb_io_bus
+      tb_io_bus: FAIL  FAIL: RAM boundary read-back: expected 0x5, actual 0x5a  (t=1240000) (6 failing checks)
+M3a SPI bit order (first bit sent is bit 0)
+    detected by: tb_io_bus, tb_spi_display
+      tb_io_bus: FAIL  FAIL: bp byte2: expected 0x1, actual 0x81  (t=41260000) (2 failing checks)
+      tb_spi_display: FAIL  FAIL: decoded byte value (MSB first): expected 128 (0x80), actual 0 (0x0)  (t=4720000, HALF=2) (11 failing checks)
+M3b SPI DC polarity inverted
+    detected by: tb_io_bus, tb_spi_display
+      tb_io_bus: FAIL  FAIL: byte0 is a command (DC=0): expected 0x0, actual 0x1  (t=39340000) (7 failing checks)
+      tb_spi_display: FAIL  FAIL: decoded DC: expected 0 (0x0), actual 1 (0x1)  (t=4720000, HALF=2) (10 failing checks)
+M4 debounce bypass (stable follows the synchronizer directly)
+    detected by: tb_buttons
+      tb_buttons: FAIL  FAIL: held-at-reset button: pressed edge: expected 15 (0xf), actual 8 (0x8)  (t=190000) (23 failing checks)
+Real RTL files unchanged by this script: True

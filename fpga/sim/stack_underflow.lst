@@ -1,0 +1,7 @@
+; ByteForge listing for stack_underflow.asm
+; ADDR  WORD1 WORD2  LINE  SOURCE
+0000   18EE            2  LOADI R0, 0x77
+0001   0800  0300      3  STORE R0, [0x0300]
+0003   7200            4  POP   R1
+0004   0800  0301      5  STORE R0, [0x0301]
+0006   8800            6  HALT
