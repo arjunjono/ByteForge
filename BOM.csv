@@ -1,17 +1,17 @@
-Item,Part or specification,Needed for one unit,Planned buy,Allowance SGD,Notes,Supplier or quote link
-FPGA,Sipeed Tang Nano 20K rev 3921 target,1,1,70,Confirm board revision and whether male pins are fitted or supplied,https://shopee.sg/Tang-Nano-20K-FPGA-Development-Board-RISCV-Linux-for-Retro-Game-Player-i.183691527.50404625405
-Display,Waveshare 17344 2inch SPI LCD,1,1,18,Check that 8-wire PH2.0 cable is included,https://www.waveshare.com/product/2inch-lcd-module.htm
-Carrier PCBs,A1 bare PCB 2 layer FR4 1.6 mm 1 oz,1,5,25,Planning lot size; replace with actual quote,https://jlcpcb.com/quote
-Socket headers,PPTC201LFBN-RC,2,2,5,Single row 20 way 2.54 mm; verify mating header and stack height,https://www.digikey.sg/en/products?keywords=PPTC201LFBN-RC
-LCD header,PRPC008SAAN-RC,1,1,2,Single row 8 way 2.54 mm,https://www.digikey.sg/en/products?keywords=PRPC008SAAN-RC
-LCD regulator,AP2112K-3.3TRG1,1,2,3,One spare; SOT-25,https://www.digikey.sg/en/products?keywords=AP2112K-3.3TRG1
-Input/output capacitors,GRM21BR71C105KA01L,2,5,2,1 uF 16 V X7R 0805,https://www.digikey.sg/en/products?keywords=GRM21BR71C105KA01L
-Decoupling capacitors,GRM21BR71H104KA01L,2,5,2,100 nF 50 V X7R 0805,https://www.digikey.sg/en/products?keywords=GRM21BR71H104KA01L
-Pull-up resistors,CF14JT10K0,7,10,2,10 kOhm axial; 7.62 mm lead pitch on PCB,https://www.digikey.sg/en/products?keywords=CF14JT10K0
-Tact switches,B3F-1000,7,8,5,One spare; confirm lead fit and orientation,https://www.digikey.sg/en/products?keywords=B3F-1000
-USB cable,USB-C data cable with slim plug,1,1,8,Reuse if available; confirm recessed port reach,https://www.digikey.sg/en/products?keywords=USB%20A%20to%20USB%20C%20data%20cable%201m
-Wiring,LCD adapter leads and Tang male headers if needed,1 set,1 set,6,No extra LCD cable purchase if supplied cable is suitable,https://www.digikey.sg/en/products?keywords=2.54mm%20jumper%20wire%20female
-Enclosure fasteners,PCB and lid screws plus possible LCD bracket hardware,1 set,1 set,5,Four PCB and four lid positions; choose screws after testing,https://www.digikey.sg/en/products?keywords=M3%20screws%20plastic%20thread%20forming
-Printing,Fit coupon and E1 enclosure material or print service,1 set,1 set,15,Actual service price pending,https://printing.hackclub.com/
-Shipping and taxes,Combined delivery and applicable GST,1 allowance,1 allowance,35,Combined allowance; use actual shipping and GST from all supplier quotes.,https://jlcpcb.com/quote
-Contingency,Allowance for replacements and price changes,1 allowance,1 allowance,20,Budget reserve only; no supplier. Confirm eligibility before requesting.,
+Part,Type,Quantity,Unit price (SGD),Line total (SGD),Link,Vendor,Funding,Notes,Part or specification,Needed for one unit,Planned buy
+FPGA,Part,,,70.00,https://shopee.sg/Tang-Nano-20K-FPGA-Development-Board-RISCV-Linux-for-Retro-Game-Player-i.183691527.50404625405,,Grant,Confirm board revision and whether male pins are fitted or supplied,Sipeed Tang Nano 20K rev 3921 target,1,1
+Display,Part,,,18.00,https://www.waveshare.com/product/2inch-lcd-module.htm,,Grant,Check that 8-wire PH2.0 cable is included,Waveshare 17344 2inch SPI LCD,1,1
+Carrier PCBs,PCB,,,25.00,https://jlcpcb.com/quote,,Grant,Planning lot size; replace with actual quote,A1 bare PCB 2 layer FR4 1.6 mm 1 oz,1,5
+Socket headers,Part,,,5.00,https://www.digikey.sg/en/products?keywords=PPTC201LFBN-RC,,Grant,Single row 20 way 2.54 mm; verify mating header and stack height,PPTC201LFBN-RC,2,2
+LCD header,Part,,,2.00,https://www.digikey.sg/en/products?keywords=PRPC008SAAN-RC,,Grant,Single row 8 way 2.54 mm,PRPC008SAAN-RC,1,1
+LCD regulator,Part,,,3.00,https://www.digikey.sg/en/products?keywords=AP2112K-3.3TRG1,,Grant,One spare; SOT-25,AP2112K-3.3TRG1,1,2
+Input/output capacitors,Part,,,2.00,https://www.digikey.sg/en/products?keywords=GRM21BR71C105KA01L,,Grant,1 uF 16 V X7R 0805,GRM21BR71C105KA01L,2,5
+Decoupling capacitors,Part,,,2.00,https://www.digikey.sg/en/products?keywords=GRM21BR71H104KA01L,,Grant,100 nF 50 V X7R 0805,GRM21BR71H104KA01L,2,5
+Pull-up resistors,Part,,,2.00,https://www.digikey.sg/en/products?keywords=CF14JT10K0,,Grant,10 kOhm axial; 7.62 mm lead pitch on PCB,CF14JT10K0,7,10
+Tact switches,Part,,,5.00,https://www.digikey.sg/en/products?keywords=B3F-1000,,Grant,One spare; confirm lead fit and orientation,B3F-1000,7,8
+USB cable,Part,,,8.00,https://www.digikey.sg/en/products?keywords=USB%20A%20to%20USB%20C%20data%20cable%201m,,Grant,Reuse if available; confirm recessed port reach,USB-C data cable with slim plug,1,1
+Wiring,Part,,,6.00,https://www.digikey.sg/en/products?keywords=2.54mm%20jumper%20wire%20female,,Grant,No extra LCD cable purchase if supplied cable is suitable,LCD adapter leads and Tang male headers if needed,1 set,1 set
+Enclosure fasteners,Part,,,5.00,https://www.digikey.sg/en/products?keywords=M3%20screws%20plastic%20thread%20forming,,Grant,Four PCB and four lid positions; choose screws after testing,PCB and lid screws plus possible LCD bracket hardware,1 set,1 set
+Printing,Part,,,15.00,https://printing.hackclub.com/,,Grant,Actual service price pending,Fit coupon and E1 enclosure material or print service,1 set,1 set
+Shipping and taxes,Shipping,,,35.00,https://jlcpcb.com/quote,,Grant,Combined allowance; use actual shipping and GST from all supplier quotes.,Combined delivery and applicable GST,1 allowance,1 allowance
+Total,,,,203.00,,,,,,,
