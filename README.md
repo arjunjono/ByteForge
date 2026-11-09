@@ -47,5 +47,4 @@ See [BOM.csv](BOM.csv) for part numbers, supplier links and notes. Quantities co
 | [Enclosure fasteners](https://www.digikey.sg/en/products?keywords=M3%20screws%20plastic%20thread%20forming) | 1 set | 1 set | 5 |
 | [Printing](https://printing.hackclub.com/) | 1 set | 1 set | 15 |
 | [Shipping and taxes](https://jlcpcb.com/quote) | 1 allowance | 1 allowance | 35 |
-| Contingency | 1 allowance | 1 allowance | 20 |
-| **Provisional total** | | | **223** |
+| **Provisional total** | | | **203** |
