@@ -1,0 +1,44 @@
+{
+  "profile_mm": [
+    90,
+    110
+  ],
+  "thickness_mm": 1.6,
+  "layers": {
+    "Copper,L1,Top": "ByteForge_Carrier-F_Cu.gtl",
+    "Copper,L2,Bot": "ByteForge_Carrier-B_Cu.gbl",
+    "Legend,Top": "ByteForge_Carrier-F_Silkscreen.gto",
+    "Legend,Bot": "ByteForge_Carrier-B_Silkscreen.gbo",
+    "Soldermask,Top": "ByteForge_Carrier-F_Mask.gts",
+    "Soldermask,Bot": "ByteForge_Carrier-B_Mask.gbs",
+    "Profile,NP": "ByteForge_Carrier-Edge_Cuts.gm1"
+  },
+  "drills": {
+    "PTH": {
+      "hits": 90,
+      "diameters_mm": {
+        "0.8": 14,
+        "1.0": 48,
+        "1.1": 28
+      }
+    },
+    "NPTH": {
+      "hits": 4,
+      "diameters_mm": {
+        "3.2": 4
+      }
+    }
+  },
+  "sha256": {
+    "ByteForge_Carrier-F_Cu.gtl": "bfce98d73104b6dc6961db15d386c4de53c0b9f5f4232f1c896d3346f68b898a",
+    "ByteForge_Carrier-B_Cu.gbl": "b1896eb08be745423922dd5512e12b06982e33504e323c545ec0ff95d7ccdd8d",
+    "ByteForge_Carrier-F_Silkscreen.gto": "b9e053848f8b521044e86078d98e661780cdf4cd6aa44bcad916d66634abe541",
+    "ByteForge_Carrier-B_Silkscreen.gbo": "5ba5e233d9456ffc42367115c0e83a8ea93dc6daae88238727eac18706770efa",
+    "ByteForge_Carrier-F_Mask.gts": "353f5a9b037955b5e1c601fbfa7da85a402f64481aa6d673ab592cc101bc1de1",
+    "ByteForge_Carrier-B_Mask.gbs": "b15d65087b28d28eb576d3bcb052697240b70ab1f767d23abc5522c5a6789162",
+    "ByteForge_Carrier-Edge_Cuts.gm1": "660ba92f75c7455a4ba5c0557a57b2d1738f27fafaa0c6a4776a92850729bbac",
+    "ByteForge_Carrier-PTH.drl": "c3edb85a5819de7ab38cb2be863acdf881e89176098e2e5827ff0311078d0cfc",
+    "ByteForge_Carrier-NPTH.drl": "1ccffb463197c1b61cad2b1f251bd717efa6d0297a41b4c0cb07180dfb3bdba4"
+  },
+  "scope": "Profile, file metadata, exact drill-to-CAD comparison, and plated drill centers against both copper and mask flash centers. Not a full Gerber geometry check or vendor DFM."
+}

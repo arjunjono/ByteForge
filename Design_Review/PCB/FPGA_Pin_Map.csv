@@ -1,0 +1,14 @@
+Signal,FPGA package pin,Tang header,Header position
+LCD DIN,73,J6,1
+LCD CLK,74,J6,2
+LCD CS,41,J5,6
+LCD DC,77,J6,5
+LCD RST,48,J5,10
+LCD BL,42,J5,5
+Up,27,J6,8
+Down,28,J6,9
+Left,25,J6,10
+Right,72,J5,17
+A,29,J6,12
+B,30,J6,13
+CPU reset,31,J6,14

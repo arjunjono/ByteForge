@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+<rect width="960" height="500" fill="#101d2a"/>
+<g font-family="sans-serif" fill="#eef6fc">
+<text x="32" y="49" font-size="28" font-weight="bold">ByteForge A1 · LCD cable wiring</text>
+<text x="52" y="99" font-size="20">A1 carrier · J1</text>
+<text x="680" y="99" font-size="20">Waveshare 17344</text>
+<rect x="32" y="116" width="245" height="294" rx="12" fill="#1b3040"/>
+<rect x="665" y="116" width="263" height="294" rx="12" fill="#1b3040"/>
+<text x="52" y="153" font-size="17">1 · LCD_3V3</text>
+<path d="M265 147 H680" stroke="#fac98d" stroke-width="2"/>
+<circle cx="265" cy="147" r="4" fill="#fac98d"/><circle cx="680" cy="147" r="4" fill="#fac98d"/>
+<text x="704" y="153" font-size="17">VCC</text>
+<text x="52" y="187" font-size="17">2 · GND</text>
+<path d="M265 181 H680" stroke="#acb7bf" stroke-width="2"/>
+<circle cx="265" cy="181" r="4" fill="#acb7bf"/><circle cx="680" cy="181" r="4" fill="#acb7bf"/>
+<text x="704" y="187" font-size="17">GND</text>
+<text x="52" y="221" font-size="17">3 · LCD_MOSI</text>
+<path d="M265 215 H680" stroke="#84d9c7" stroke-width="2"/>
+<circle cx="265" cy="215" r="4" fill="#84d9c7"/><circle cx="680" cy="215" r="4" fill="#84d9c7"/>
+<text x="704" y="221" font-size="17">DIN</text>
+<text x="52" y="255" font-size="17">4 · LCD_SCK</text>
+<path d="M265 249 H680" stroke="#84d9c7" stroke-width="2"/>
+<circle cx="265" cy="249" r="4" fill="#84d9c7"/><circle cx="680" cy="249" r="4" fill="#84d9c7"/>
+<text x="704" y="255" font-size="17">CLK</text>
+<text x="52" y="289" font-size="17">5 · LCD_CS_N</text>
+<path d="M265 283 H680" stroke="#84d9c7" stroke-width="2"/>
+<circle cx="265" cy="283" r="4" fill="#84d9c7"/><circle cx="680" cy="283" r="4" fill="#84d9c7"/>
+<text x="704" y="289" font-size="17">CS</text>
+<text x="52" y="323" font-size="17">6 · LCD_DC</text>
+<path d="M265 317 H680" stroke="#84d9c7" stroke-width="2"/>
+<circle cx="265" cy="317" r="4" fill="#84d9c7"/><circle cx="680" cy="317" r="4" fill="#84d9c7"/>
+<text x="704" y="323" font-size="17">DC</text>
+<text x="52" y="357" font-size="17">7 · LCD_RST_N</text>
+<path d="M265 351 H680" stroke="#84d9c7" stroke-width="2"/>
+<circle cx="265" cy="351" r="4" fill="#84d9c7"/><circle cx="680" cy="351" r="4" fill="#84d9c7"/>
+<text x="704" y="357" font-size="17">RST</text>
+<text x="52" y="391" font-size="17">8 · LCD_BL</text>
+<path d="M265 385 H680" stroke="#84d9c7" stroke-width="2"/>
+<circle cx="265" cy="385" r="4" fill="#84d9c7"/><circle cx="680" cy="385" r="4" fill="#84d9c7"/>
+<text x="704" y="391" font-size="17">BL</text>
+<text x="32" y="449" font-size="17">VCC uses the carrier’s dedicated LCD 3.3 V rail. Ground is shared.</text>
+<text x="32" y="474" font-size="17">Match the display’s signal labels; verify cable order and continuity before power-up.</text>
+</g></svg>
